@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Html5 Canvas</title>
+</head>
+
+<body>
+    <header > 
+        <h3> <a href="../../index.html">Go to Homepage</a> <br> </h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">HTML Tutorial</a></li>
+            <li><a href="#">CSS Tutorial</a></li>
+            <li><a href="#">JavaScript Tutorial</a></li>
+        </ul>
+    </nav>
+    <div>
+    Canvas is used to draw graphics on webpages via JavaScript.
+
+	Canvas element is only a container to Graphics. You must use a script to actually draw the graphics
+
+	Canvas can draw color text with or without animation
+
+	</div>
+
+	<canvas id="canvas1" width="200" height="200" style="border: 1px solid #C3C3C3;"></canvas>
+	<script type="text/javascript">
+		var canvas = document.getElementById('canvas1');
+		var context = canvas.getContext('2d');
+		context.fillstyle = "red";
+		context.fillrect(0,0,100,125);
+	</script>
+	
+    <footer>
+        <p>Created by <a href="#">MAQ</p>
+    </footer>
+</body>
+
+</html>
